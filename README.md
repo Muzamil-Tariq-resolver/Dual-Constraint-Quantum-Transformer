@@ -87,11 +87,7 @@ for every admissible model output.
 
 The model is trained using a wavefunction prediction loss:
 
-$$
-\mathcal{L}
-=
-\|\psi_{\mathrm{pred}}-\psi_{\mathrm{true}}\|_2^2.
-$$
+$\mathcal{L} = \|\psi_{\mathrm{pred}}-\psi_{\mathrm{true}}\|_2^2$
 
 No probability or energy conservation terms are included in the loss.
 
