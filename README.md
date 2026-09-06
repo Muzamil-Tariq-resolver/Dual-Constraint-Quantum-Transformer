@@ -6,8 +6,8 @@ A hard-constrained Transformer architecture for quantum-state prediction that st
 
 The Dual Constraint Quantum Transformer (DCQT) introduces a differentiable output parameterization that satisfies two quantum constraints independently of model parameters and training:
 
-* **Probability normalization:** \(\sum_n p_n = 1\)
-* **Energy conservation:** \(\sum_n E_n p_n = E_0\)
+* **Probability normalization:** $\sum_n p_n = 1$
+* **Energy conservation:** $\sum_n E_n p_n = E_0$
 
 The predicted populations are constructed as convex combinations of analytically computed vertices of the probability-energy feasible polytope. Since every vertex satisfies both constraints, every convex combination also satisfies them exactly in mathematical precision.
 
